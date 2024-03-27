@@ -25,8 +25,6 @@ Dataset was on Kaggle under the title [Medical Insurance Cost Prediction](https:
 
 # EDA
 
-# Data Cleaning
-
 
 # Model Building
 
