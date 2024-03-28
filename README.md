@@ -24,12 +24,14 @@ Dataset was on Kaggle under the title [Medical Insurance Cost Prediction](https:
 
 
 # EDA
+As can be shown below 
 
 For further insights and graphical representations, [notebook found here](/Medical_Insurance_Cost,_EDA.ipynb).
 
 
 
 # Model Building
+Linear Regression, Decision Tree, and Random Forests were the three model candidates due to their ability to model both categorical and continuous data.
 
 
 # Potential Implications
