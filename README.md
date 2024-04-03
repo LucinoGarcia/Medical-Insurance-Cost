@@ -8,16 +8,6 @@
 
 
 
-
-
-Insights and Conclusion:
-Summarize the key insights, findings, or conclusions derived from the analysis.
-Highlight the practical implications of the results and their relevance to the project objective.
-
-
-
-
-
 # Resources 
 **Python Version:** 3.10.12 <br>
 **Packages:** NumPy, Pandas, Matplotlib, Seaborn<br>
