@@ -31,7 +31,11 @@ The other predictors suffered from skewed data but generally exhibibted potentia
 
 
 # Model Building
-Linear Regression, Decision Tree, and Random Forests were the three model candidates due to their ability to model both categorical and continuous data.
+Linear Regression, Decision Tree, and Random Forests were the three model candidates due to their ability to model both categorical and continuous data. 
 
 
-# Potential Implications
+# Implications
+- **Smoking Dominates Costs**: Smoking status is the most critical factor, contributing 62.6% to insurance cost prediction.
+- **BMI Matters**: BMI is the second most important predictor, influencing 20.97% of insurance cost variation.
+- **Age Counts**: Age is significant, contributing 12.53% to insurance cost prediction.
+- **Other Factors Are Less Impactful**: Children, sex, and region have limited impact, collectively contributing 4.9% to prediction.
