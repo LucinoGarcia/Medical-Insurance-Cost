@@ -31,11 +31,16 @@ The other predictors suffered from skewed data but generally exhibibted potentia
 
 
 # Model Building
-Linear Regression, Decision Tree, and Random Forests were the three model candidates due to their ability to model both categorical and continuous data. 
+Linear Regression, Decision Tree, and Random Forest were the three model candidates due to their ability to model both categorical and continuous data. As speculated in the Age variable exploration in the EDA, Decision Tree and Random Forest models performed significantly better than Linear Regression – each achieving R-squared values over 90%, while the Linear Regression model was at 73%.<br> <br> 
+Below is a plot of the dataset, sorted, and the respective Random Forest prediciton. The notebook for the [model builing and evalution can be found here](/Medical_Insurance_Cost,_Model.ipynb).
+
+
+![MedCostReg_Plot.png](/images/MedCostReg_Plot.png)
+
 
 
 # Implications
 - **Smoking Dominates Costs**: Smoking status is the most critical factor, contributing 62.6% to insurance cost prediction.
 - **BMI Matters**: BMI is the second most important predictor, influencing 20.97% of insurance cost variation.
 - **Age Counts**: Age is significant, contributing 12.53% to insurance cost prediction.
-- **Other Factors Are Less Impactful**: Children, sex, and region have limited impact, collectively contributing 4.9% to prediction.
+- **Other Factors Are Less Impactful**: Number of children, sex, and region have limited impact, collectively contributing 4.9% to prediction.
