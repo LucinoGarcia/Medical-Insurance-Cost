@@ -3,14 +3,14 @@
 - The dataset, sourced from Kaggle, underwent minimal data cleaning and formatting procedures to ensure its suitability for analysis.
 - The selection of Linear Regression, Decision Tree, and Random Forest models was based on their adeptness in handling both categorical and continuous data types.
 - Upon evaluation, the Random Forest model emerged as the top performer, exhibiting the lowest Mean Squared Error (MSE) and the highest R-squared value among the three models.
-- Notably, smoking emerged as the most significant determinant of medical insurance cost, followed by BMI and age, according to the analysis.
+- Notably, smoking emerged as the most significant determinant of medical insurance cost, followed by BMI and age, according to the analysis.<br>
 
 
 
 
 # Resources 
 **Python Version:** 3.10.12 <br>
-**Packages:** NumPy, Pandas, Matplotlib, Seaborn<br>
+**Packages:** NumPy, Pandas, Matplotlib, Seaborn<br><br>
 
 
 
@@ -29,7 +29,7 @@ Intuition dictates that many of the factors considered in medical insurance cost
 ![image](/images/Ages_Histogram.png) <br>
 The fact that the Linearity Check plot exhibits three quasi-linear patterns that run parallel to one another suggests that age is inexorably intertwined with one or more variables. It could also be posited that age will likely serve as some sort of sub-classifier into a 'tier of cost'. Decision Tree or Random Forest models are better equipped for handling such variables. <br>
 
-The other predictors suffered from skewed data but generally exhibibted potential for linear relationships with the response variable. For further insights and graphical representations, the [EDA notebook is found here](/Medical_Insurance_Cost,_EDA.ipynb).
+The other predictors suffered from skewed data but generally exhibibted potential for linear relationships with the response variable. For further insights and graphical representations, the [EDA notebook is found here](/Medical_Insurance_Cost,_EDA.ipynb).<br>
 
 
 
@@ -38,7 +38,7 @@ Linear Regression, Decision Tree, and Random Forest were the three model candida
 Below is a plot of the dataset, sorted, and the respective Random Forest prediciton. The notebook for the [model builing and evalution can be found here](/Medical_Insurance_Cost,_Model.ipynb).
 
 
-![MedCostReg_Plot.png](/images/MedCostReg_Plot.png)
+![MedCostReg_Plot.png](/images/MedCostReg_Plot.png)<br>
 
 
 
