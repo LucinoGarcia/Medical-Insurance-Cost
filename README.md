@@ -26,7 +26,7 @@ As can be shown below there is a severe under representation of samples with cha
 Intuition dictates that many of the factors considered in medical insurance cost would be linearly correlated to the cost. One would have to perform linearity checks on each of the variables, one of which, age, is shown below. <br>
 
 ![image](/images/Ages_Histogram.png) <br>
-The fact that the Linearity Check plot exhibits three quasi-linear patterns that run parallel to one another suggests that age is inexorably intertwined with one or more variables. It could also be posited that age will likely serve as some sort of sub-classifier into a 'tier of cost'. Decision Tree or Random Forest models are better equipped for handling such variables. <br><br>
+The fact that the Linearity Check plot exhibits three quasi-linear patterns that run parallel to one another suggests that age is inexorably intertwined with one or more variables. It could also be posited that age will likely serve as some sort of sub-classifier into a 'tier of cost'. Decision Tree or Random Forest models are better equipped for handling such variables. <br>
 
 The other predictors suffered from skewed data but generally exhibibted potential for linear relationships with the response variable. For further insights and graphical representations, the [EDA notebook is found here](/Medical_Insurance_Cost,_EDA.ipynb).
 
